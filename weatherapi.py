@@ -5,7 +5,7 @@ import requests
 # weather API: help to get the weather data for a given lat and long
 
 st.set_page_config(page_title="Weather App",
-                   page_icon=":sunny:")
+                   page_icon=":sunny:", layout="wide")
 
 WMO_CODES = {
     0: "Clear sky",
